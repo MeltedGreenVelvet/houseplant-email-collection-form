@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #ecd1cf;
+  background-color: #fef7ed;
   margin: 0;
   height: 100vh;
   display: grid;
@@ -9,11 +13,12 @@ body {
 
 .form-container {
   max-width: 400px;
-  background: #fff;
-  box-shadow: 20px 20px 40px;
+  background: rgb(255, 255, 255);
+  box-shadow: 20px 20px 40px rgb(255, 211, 240);
   border-radius: 1em;
   padding: 2em;
   position: relative;
+  height: 100%;
 }
 
 h1 {
@@ -35,8 +40,7 @@ h2 {
 }
 
 .lottie {
-  width: 100%;
-  height: 100vh;
+  width: 100vmax;
   background-size: cover;
   pointer-events: none;
 }
@@ -51,6 +55,7 @@ input {
   width: 100%;
   padding: 0.8em;
   border: 1px solid gray;
+  margin-bottom: 1em;
 }
 
 a {
@@ -64,4 +69,17 @@ a {
 
 input, a {
   border-radius: 0.3em;
+}
+
+p {
+  font-size: 0.9em;
+  margin: 1em 0 2em;
+  padding: 1em;
+  background: rgb(245, 243, 235);
+}
+
+.onstart {
+  position: absolute;
+  top: -180px;
+  left: 75px;
 }/*# sourceMappingURL=main.css.map */
